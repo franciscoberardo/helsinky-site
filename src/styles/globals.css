@@ -2,20 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Maiden+Orange&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+/* En tu archivo CSS principal */
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
